@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.io.*;
-import java.util.*;
 class Hospital
 {
 	public static void main(String args[])
@@ -96,5 +95,6 @@ class Hospital
 			}
 		}while(choice!=0);
 		System.out.println("------------------------------Thank You!! Have a Great Day!!------------------------------");
+		sc.close();
 	}
 }
